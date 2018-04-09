@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LibCaca"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arcade">
+				<Option output="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/arcade" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes/Libcaca"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Caca_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 arcade"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arcade/fast">
+				<Option output="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/arcade" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes/Libcaca"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Caca_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 arcade/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_arcade_sdl2">
+				<Option output="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/libs/lib_arcade_sdl2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes/Libcaca"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Caca_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 _arcade_sdl2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_arcade_sdl2/fast">
+				<Option output="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/libs/lib_arcade_sdl2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes/Libcaca"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Caca_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 _arcade_sdl2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_arcade_sfml">
+				<Option output="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/libs/lib_arcade_sfml.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes/Libcaca"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Caca_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 _arcade_sfml"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_arcade_sfml/fast">
+				<Option output="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/libs/lib_arcade_sfml.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes/Libcaca"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Caca_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 _arcade_sfml/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_arcade_nibbler">
+				<Option output="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/games/lib_arcade_nibbler.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes/Libcaca"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Caca_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 _arcade_nibbler"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_arcade_nibbler/fast">
+				<Option output="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/games/lib_arcade_nibbler.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes/Libcaca"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Caca_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 _arcade_nibbler/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_arcade_libcaca">
+				<Option output="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/libs/lib_arcade_libcaca.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes/Libcaca"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Caca_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 _arcade_libcaca"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_arcade_libcaca/fast">
+				<Option output="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/libs/lib_arcade_libcaca.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes/Libcaca"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Caca_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources"/>
+					<Add directory="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 _arcade_libcaca/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Caca_Sources/LibCaca.cpp">
+			<Option target="_arcade_libcaca"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Caca_Sources/LibCaca.hpp">
+			<Option target="_arcade_libcaca"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/AGame.cpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/AGame.hpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/ALib.cpp">
+			<Option target="_arcade_sdl2"/>
+			<Option target="_arcade_sfml"/>
+			<Option target="_arcade_libcaca"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/ALib.hpp">
+			<Option target="_arcade_sdl2"/>
+			<Option target="_arcade_sfml"/>
+			<Option target="_arcade_libcaca"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/Arcade.cpp">
+			<Option target="arcade"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/Arcade.hpp">
+			<Option target="arcade"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/DataBridge.hpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/Entity.cpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/Entity.hpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/GameManager.cpp">
+			<Option target="arcade"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/GameManager.hpp">
+			<Option target="arcade"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/GameMap.cpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/GameMap.hpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/GameMenu.cpp">
+			<Option target="arcade"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/GameMenu.hpp">
+			<Option target="arcade"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/IEntity.hpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/IGame.hpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/ILib.hpp">
+			<Option target="_arcade_sdl2"/>
+			<Option target="_arcade_sfml"/>
+			<Option target="_arcade_nibbler"/>
+			<Option target="_arcade_libcaca"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/ISprite.hpp">
+			<Option target="_arcade_sdl2"/>
+			<Option target="_arcade_sfml"/>
+			<Option target="_arcade_libcaca"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/LibLoader.cpp">
+			<Option target="arcade"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/LibLoader.hpp">
+			<Option target="arcade"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/Sprite.cpp">
+			<Option target="arcade"/>
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/Sprite.hpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/Vector2D.cpp">
+			<Option target="arcade"/>
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/Vector2D.hpp">
+			<Option target="arcade"/>
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes/Libcaca/caca++.h">
+			<Option target="_arcade_libcaca"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes/Libcaca/caca.h">
+			<Option target="_arcade_libcaca"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes/Libcaca/caca_types.h">
+			<Option target="_arcade_libcaca"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Graphic_Includes/SFML/Graphics.hpp">
+			<Option target="_arcade_sdl2"/>
+			<Option target="_arcade_sfml"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Sdl2_Sources/LibSdl2.cpp">
+			<Option target="_arcade_sdl2"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Sdl2_Sources/LibSdl2.hpp">
+			<Option target="_arcade_sdl2"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Sfml_Sources/LibSfml.cpp">
+			<Option target="_arcade_sfml"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Sfml_Sources/LibSfml.hpp">
+			<Option target="_arcade_sfml"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources/FoodEntity.cpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources/FoodEntity.hpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources/LibSnake.cpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources/LibSnake.hpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources/SnakeBodyEntity.cpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources/SnakeBodyEntity.hpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources/SnakeDataBridge.hpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources/SnakeEntity.cpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources/SnakeEntity.hpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources/WallEntity.cpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Snake_Sources/WallEntity.hpp">
+			<Option target="_arcade_nibbler"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/main.cpp">
+			<Option target="arcade"/>
+		</Unit>
+		<Unit filename="/home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

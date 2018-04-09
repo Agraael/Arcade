@@ -1,0 +1,28 @@
+Groupe collaboration =>
+
+nathan.schwarz@epitech.eu
+ludovica.pagliarani@epitech.eu
+
+groupe =>
+
+cedric.cescutti@epitech.eu
+
+Menu :
+
+2 - 3 => prev & next graphic
+4 - 5 => prev & next game
+TAB => enter text mode for player name
+ENTER => play
+ESC = quit
+
+SNAKE :
+
+2 - 3 => prev & next graphic
+
+Z => boost
+S => slow
+P = pause
+BACKSPACE = restart;
+ENTER => start
+
+ARROW => snake mouvement
