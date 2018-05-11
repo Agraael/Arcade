@@ -18,6 +18,7 @@
 #include <algorithm>
 #include <memory>
 #include <IEntity.hpp>
+#include <functional>
 #include <ILib.hpp>
 #include "IGame.hpp"
 #include "DataBridge.hpp"

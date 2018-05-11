@@ -11,6 +11,7 @@
 #include <GameMap.hpp>
 #include <memory>
 #include <Sprite.hpp>
+#include <functional>
 #include "Vector2D.hpp"
 #include "IGame.hpp"
 #include "DataBridge.hpp"

@@ -55,6 +55,8 @@ memory
 -
 IEntity.hpp
 -
+functional
+-
 ILib.hpp
 -
 IGame.hpp
@@ -68,6 +70,8 @@ GameMap.hpp
 memory
 -
 Sprite.hpp
+-
+functional
 -
 Vector2D.hpp
 ../Core_Sources/Vector2D.hpp
@@ -152,6 +156,8 @@ GameMap.hpp
 memory
 -
 Sprite.hpp
+-
+functional
 -
 Vector2D.hpp
 /home/kraken/rendu/Tech2-2017-2018/Project/arcade/cpp_arcade/Core_Sources/Vector2D.hpp

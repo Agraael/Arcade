@@ -19,7 +19,7 @@ snake::LibSnake::LibSnake()
 
 void snake::LibSnake::restart()
 {
-	_map = std::make_unique<game::GameMap>("./Snake_Sources/mapSnake/lvl1.map", _data, _construct);
+	_map = std::make_unique<game::GameMap>("./Snake_Sources/mapSnake/lvl2.map", _data, _construct);
 	_player = (*_map->getListOf("snake"))[0];
 	_start = false;
 	_pause = false;
@@ -59,9 +59,11 @@ void snake::LibSnake::play(grph::ILib* graphic, grph::KeyEvent event)
 		restart();
 	if (_start and not _pause)
 		updateGame(event);
-	genGameDisplay(*graphic);
-	graphic->display();
-	graphic->clear();
+	if (graphic != nullptr) {
+		genGameDisplay(*graphic);
+		graphic->display();
+		graphic->clear();
+	}
 }
 
 extern "C"

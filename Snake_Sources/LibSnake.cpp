@@ -59,9 +59,11 @@ void snake::LibSnake::play(grph::ILib* graphic, grph::KeyEvent event)
 		restart();
 	if (_start and not _pause)
 		updateGame(event);
-	genGameDisplay(*graphic);
-	graphic->display();
-	graphic->clear();
+	if (graphic != nullptr) {
+		genGameDisplay(*graphic);
+		graphic->display();
+		graphic->clear();
+	}
 }
 
 extern "C"
